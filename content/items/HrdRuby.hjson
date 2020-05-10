@@ -1,0 +1,5 @@
+type: material
+name: Hardened Ruby
+description: Ruby that has been hardened and infused with graphite.
+cost: 2.5
+color: ba385f

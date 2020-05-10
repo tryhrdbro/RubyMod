@@ -1,0 +1,5 @@
+type: material
+name: Pure Ruby
+description: Ruby ore that has been refined.
+cost: 2.5
+color: ff004d
