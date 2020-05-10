@@ -1,0 +1,4 @@
+type: resource
+name: Ruby Shard
+description: Ruby that has been blown up into shards.
+color: de0043
