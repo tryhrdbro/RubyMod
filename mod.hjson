@@ -1,0 +1,6 @@
+name: "Ruby Mod"
+displayName: "[red]Ruby[pink] Mod" //what displays in the mod selection menu
+author: "[orange]Chooby[white]shroom & [blue]try[red]hrd[green]bro"
+description: "A mod about rubies. [blue]Imported to github by tryhrdbro."
+version: "3.1"
+minGameVersion: "103"
