@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Ruby Forger
+description: Makes ruby out of graphite.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.3
+  items: {
+    items: [
+      graphite/3
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+requirements: [
+  lead/60
+  graphite/40
+  silicon/25
+]
+category: crafting
+research: graphite-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ruby/5

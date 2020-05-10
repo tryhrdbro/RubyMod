@@ -1,0 +1,10 @@
+name: Large Hardened Ruby Wall
+description: A bigger wall made of hardened ruby.
+type: Wall
+health: 400
+size: 2
+requirements: [
+  HrdRuby/160
+]
+category: defense
+research: Wall

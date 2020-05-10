@@ -1,0 +1,10 @@
+name: Charged Ruby Wall
+description: A wall made of charged ruby.
+type: Wall
+health: 280
+size: 1
+requirements: [
+  ChrgRuby/40
+]
+category: defense
+research: HrdWall

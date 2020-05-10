@@ -1,0 +1,10 @@
+name: Large Ruby Wall
+description: A bigger ruby wall.
+type: Wall
+health: 280
+size: 2
+requirements: [
+  ReRuby/160
+]
+category: defense
+research: Wall

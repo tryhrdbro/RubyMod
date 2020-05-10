@@ -1,0 +1,10 @@
+name: Ruby Wall
+description: A wall made of ruby.
+type: Wall
+health: 70
+size: 1
+requirements: [
+  ReRuby/40
+]
+category: defense
+research: titanium-wall

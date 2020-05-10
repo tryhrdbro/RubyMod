@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Ruby Fuser
+description: Fuses Charged Ruby Shards into Charged Ruby.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      ShrdChrgRuby/5
+    ]
+  }
+  liquid: {
+    liquid: MoltenRuby
+    amount: 0.2
+  }
+}
+requirements: [
+  lead/900
+  graphite/850
+  silicon/475
+  thorium/300
+  ReRuby/600
+]
+category: crafting
+research: RubyBlaster
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ChrgRuby/1

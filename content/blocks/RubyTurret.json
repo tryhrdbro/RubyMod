@@ -1,0 +1,49 @@
+{
+	"type": "BurstTurret",
+	"name": "Ruby Turret",
+	"description": "A 2x2 turret that fires ruby",
+	"health": 650,
+	"shots": 7,
+	"size": 2,
+	"reload": 40,
+	"targetGround": true,
+	"targetAir": true,
+	"shootCone": 360,
+	"range": 150,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 5,
+	"rotatespeed": 4
+	"BlockGroup": "turrets",
+	"ammo": {
+		"ruby": {
+			"speed": 2,
+                        "peirce": true,
+			"damage": 270,
+			"bulletWidth": 8,
+			"bulletHeight": 8,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"lifetime": 50,
+}
+		"ReRuby": {
+			"speed": 2,
+                        "peirce": true,
+			"damage": 300,
+			"bulletWidth": 10,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"lifetime": 75,
+		},
+		},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "ReRuby", "amount": 120 },
+        { "item": "graphite", "amount": 75 }
+	],
+	"category": "turret",
+	"alwaysUnlocked": false,
+	research: scatter
+}

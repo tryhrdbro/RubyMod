@@ -1,0 +1,10 @@
+name: Hardened Ruby Wall
+description: A wall made of hardened ruby.
+type: Wall
+health: 100
+size: 1
+requirements: [
+  HrdRuby/40
+]
+category: defense
+research: Wall

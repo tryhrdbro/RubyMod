@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Ruby Supercharger
+description: Supercharges ruby shards.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 3.6
+  items: {
+    items: [
+      ShrdRuby/1
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.4
+  }
+}
+requirements: [
+  lead/450
+  graphite/670
+  silicon/400
+  thorium/175
+  ReRuby/100
+]
+category: crafting
+research: RubyBlaster
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ShrdChrgRuby/1

@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Ruby Hardener
+description: Hardens ruby using graphite.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      graphite/2
+    ]
+  }
+  liquid: {
+    liquid: MoltenRuby
+    amount: 0.2
+  }
+}
+requirements: [
+  lead/50
+  graphite/80
+  silicon/60
+  ReRuby/50
+]
+category: crafting
+research: RubyRefiner
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: HrdRuby/1

@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Ruby Smeltry"
+description: "Melts ruby down for more use."
+liquidCapacity: 50
+outputLiquid: {
+  liquid: MoltenRuby
+  amount: 2
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.4
+  item: ruby
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+  graphite/120
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+
