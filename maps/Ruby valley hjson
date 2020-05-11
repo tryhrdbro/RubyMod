@@ -23,15 +23,15 @@
     "configureObjective": {
     "type": "zoneWave",
       "zone": "ruby-valley",
-      "wave": 400,
+      "wave": 40,
     },
-     "conditionWave": 400,
-    "launchPeriod": 20,
+     "conditionWave": 40,
+    "launchPeriod": 40,
     "requirements": [
     	{
     	  "type": "zoneWave",
-    	  "zone": "stained mountains",
-    	  "wave": "120",
+    	  "zone": "craters",
+    	  "wave": "20",
         },
     ],
     "resources": ["ruby", "lead", "coal", "titanium", "thorium", "sand", "scrap"]
