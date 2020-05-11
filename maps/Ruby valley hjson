@@ -1,0 +1,38 @@
+
+ 
+{
+	"name": "Equinox Coast",
+	"description": "The rare rubies are found here, as well as a ton of enemies.",
+	"loadout": "basicNucleus",
+	    	
+	"baseLaunchCost": [
+    	{"item": "copper", "amount": 600},
+    	{"item": "lead", "amount": 600},
+    	{"item": "titanium", "amount": 200},
+    ],
+	"launchCost": [
+    	{"item": "copper", "amount": 600},
+    	{"item": "lead", "amount": 600},
+    	{"item": "titanium", "amount": 200},
+    ],
+    "startingItems": [
+    	{"item": "copper", "amount": 60},
+    	{"item": "lead", "amount": 10},
+    	{"item": "titanium", "amount": 10},
+    ],
+    "configureObjective": {
+    "type": "zoneWave",
+      "zone": "Equinox_Coast",
+      "wave": 400,
+    },
+     "conditionWave": 400,
+    "launchPeriod": 20,
+    "requirements": [
+    	{
+    	  "type": "zoneWave",
+    	  "zone": "",
+    	  "wave": "120",
+        },
+    ],
+    "resources": ["ruby", "lead", "coal", "titanium",  "thorium", "scrap"]
+}
