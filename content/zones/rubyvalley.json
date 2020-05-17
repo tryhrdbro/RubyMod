@@ -10,6 +10,10 @@
     "conditionWave": 30,
     "launchPeriod": 10,
     "requirements": [
+	{
+    		"type": "Launched",
+    		"zone": "craters", 
+    	},
     	{
     		"type": "ZoneWave",
     		"zone": "stainedMountains",
