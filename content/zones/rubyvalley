@@ -1,0 +1,28 @@
+{
+	"name": "rubyvalley",
+	"description": "here be ruby",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 260},
+    	{"item": "lead", "amount": 50},
+      {"item": "silicon", "amount": 10}
+    ],
+    "conditionWave": 30,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "craters",
+    		"wave": 20
+    	},
+     	{
+    		"type": "Unlock",
+    		"block": "Ruby Forger"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "Ruby Refinery"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "ruby", "sand" ]
+}
