@@ -19,15 +19,11 @@
     		"type": "Launched",
     		"zone": "craters", 
     	},
-    	{
-    		"type": "ZoneWave",
-    		"zone": "stainedMountains",
-    		"wave": 20
-    	},
      	{
-    		"type": "Unlock",
-    		"block": "Ruby Forger"
-    	}
+	 "type": "zoneWave",
+    	  "zone": "craters",
+    	  "wave": 90,
+    	},
     	{
     		"type": "Unlock",
     		"block": "Ruby Refinery"
