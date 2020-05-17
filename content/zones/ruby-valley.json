@@ -1,5 +1,5 @@
 {
-	"name": "ruby",
+	"name": "ruby-valley",
 	"description": "here be ruby",
 	"loadout": "basicFoundation",
     "startingItems": [
@@ -9,7 +9,7 @@
     ],
     "configureObjective": {
     "type": "zoneWave",
-      "zone": "ruby",
+      "zone": "ruby-valley",
       "wave": 30,
     },
     "conditionWave": 30,
