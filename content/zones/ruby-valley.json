@@ -22,7 +22,7 @@
      	{
 	 "type": "zoneWave",
     	  "zone": "craters",
-    	  "wave": 90,
+    	  "wave": 30,
     	},
     	{
     		"type": "Unlock",
