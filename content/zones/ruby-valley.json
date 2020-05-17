@@ -26,7 +26,7 @@
     	},
     	{
     		"type": "Unlock",
-    		"block": "Ruby Refinery"
+    		"block": "RubyRefiner"
     	}
     ],
     "resources": ["copper", "lead", "coal", "ruby", "sand" ]
