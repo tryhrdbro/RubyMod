@@ -1,19 +1,19 @@
 
  
 {
-	"name": "ruby valley",
+	"name": "rubyvalley",
 	"description": "The rare rubies are found here, as well as a ton of enemies.",
 	"loadout": "basicNucleus",
 	    	
 	"baseLaunchCost": [
     	{"item": "copper", "amount": 600},
     	{"item": "lead", "amount": 600},
-    	{"item": "titanium", "amount": 200},
+    	{"item": "titanium", "amount": 20},
     ],
 	"launchCost": [
     	{"item": "copper", "amount": 600},
     	{"item": "lead", "amount": 600},
-    	{"item": "titanium", "amount": 200},
+    	{"item": "titanium", "amount": 20},
     ],
     "startingItems": [
     	{"item": "copper", "amount": 60},
@@ -22,7 +22,7 @@
     ],
     "configureObjective": {
     "type": "zoneWave",
-      "zone": "ruby-valley",
+      "zone": "rubyvalley",
       "wave": 40,
     },
      "conditionWave": 40,
@@ -34,5 +34,5 @@
     	  "wave": "20",
         },
     ],
-    "resources": ["ruby", "lead", "coal", "titanium", "thorium", "sand", "scrap"]
+    "resources": ["ruby", "lead", "coal", "titanium", "copper",]
 }
