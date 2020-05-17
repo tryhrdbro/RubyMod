@@ -9,7 +9,7 @@
     ],
     "configureObjective": {
     "type": "zoneWave",
-      "zone": "ruby-valley",
+      "zone": "ruby",
       "wave": 30,
     },
     "conditionWave": 30,
