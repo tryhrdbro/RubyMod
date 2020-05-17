@@ -7,6 +7,11 @@
     	{"item": "lead", "amount": 50},
       {"item": "silicon", "amount": 10}
     ],
+    "configureObjective": {
+    "type": "zoneWave",
+      "zone": "ruby-valley",
+      "wave": 30,
+    },
     "conditionWave": 30,
     "launchPeriod": 10,
     "requirements": [
