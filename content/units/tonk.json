@@ -11,14 +11,14 @@
 	"health": 3000000,
 	"weapon": {
 		"name": "tonkboom",
-		"length": 92,
+		"length": 2,
     "recoil": 36,
     "shake": 10,
     "peirce": true,
     "shootCone": 10,
     "shootSound": "shootBig",
     "ejectEffect": "shellEjectBig",
-		"width": 192,
+		"width": 2,
 		"reload": 28,
 		"alternate": true,
 		"bullet":{
