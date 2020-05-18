@@ -1,0 +1,52 @@
+{
+	"type": "groundUnit",
+	"name": "tonk",
+	"description": "The tonk.",
+	"maxVelocity": 3,
+	"speed": 1,
+	"drag": 0.4,
+	"mass": 400,
+	"hitsize": 300,
+	"rotatespeed": 1,
+	"health": 3000000,
+	"weapon": {
+		"name": "tonkboom",
+		"length": 92,
+    "recoil": 36,
+    "shake": 10,
+    "peirce": true,
+    "shootCone": 10,
+    "shootSound": "shootBig",
+    "ejectEffect": "shellEjectBig",
+		"width": 192,
+		"reload": 28,
+		"alternate": true,
+		"bullet":{
+		  "damage": 756009,
+		  "speed": 25,
+		  "bulletWidth": 192,
+		  "bulletHeight": 276,
+		  "splashDamageRadius": 80,
+		  "splashDamage": 200,
+      "shootEffect": "shootBig",
+		  "lifetime": 120
+       "fragBullets": 3,
+    "fragBullet": {
+        "type": "LiquidBulletType",
+        "liquid": "oil",
+        "lifetime": 4,
+        "speed": 5,
+        "damage" 2000
+        "fragBullets": 2,
+        "fragBullet": {
+            "type": "LiquidBulletType",
+            "liquid": "slag",
+            "lifetime": 1,
+            "speed": 2,
+            "damage": 1000,
+        }
+    }
+		}
+	}
+}
+© 2020 GitHub, Inc.
