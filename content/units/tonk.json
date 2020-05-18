@@ -5,9 +5,9 @@
 	"maxVelocity": 2,
 	"speed": 0.5,
 	"drag": 0.4,
-	"mass": 80,
-	"length": 5
-	"width": 20,
+	"mass": 40,
+	"length": 3
+	"width": 10,
 	"hitsize": 300,
 	"rotatespeed": 1,
 	"health": 3000000,
@@ -20,7 +20,7 @@
     "shootCone": 10,
     "shootSound": "shootBig",
     "ejectEffect": "shellEjectBig",
-		"width": 20,
+		"width": 3,
 		"reload": 28,
 		"alternate": true,
 		"bullet":{
