@@ -1,0 +1,25 @@
+{
+	"type": "unitFactory",
+	"name": "tonk-factory",
+	"description": "Constructs missile-bombarding Lich battleships.",
+	"unitType": "tonk",
+	"produceTime": 30,
+	"size": 3,
+	"maxSpawn": 5,
+	"consumes": {
+		"power": 12.0,
+		"items": {
+		"items": [
+            {"item": "copper", "amount": 30.0},
+            {"item": "titanium", "amount": 90.0},,
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "copper", "amount": 95 },
+		{ "item": "titanium", "amount": 185 },
+		{ "item": "silicon", "amount": 325 },
+	],
+	"category": "units",
+	"research": "titan-factory"
+}
