@@ -36,7 +36,7 @@
         "liquid": "oil",
         "lifetime": 4,
         "speed": 5,
-        "damage" 2000
+        "damage" 2000,
         "fragBullets": 2,
         "fragBullet": {
             "type": "LiquidBulletType",
@@ -49,4 +49,3 @@
 		}
 	}
 }
-© 2020 GitHub, Inc.
