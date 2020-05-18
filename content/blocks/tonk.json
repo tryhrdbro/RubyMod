@@ -11,7 +11,7 @@
 		"items": {
 		"items": [
             {"item": "copper", "amount": 30.0},
-            {"item": "titanium", "amount": 90.0},,
+            {"item": "titanium", "amount": 90.0}
       ]
 		}
   },
