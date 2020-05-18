@@ -1,7 +1,7 @@
 {
 	"type": "unitFactory",
 	"name": "tonk-factory",
-	"description": "Constructs missile-bombarding Lich battleships.",
+	"description": "Constructs tonks.",
 	"unitType": "tonk",
 	"produceTime": 30,
 	"size": 3,
