@@ -1,6 +1,6 @@
 {
 	"type": "groundUnit",
-	"name": "tonk",
+	"name": "ton0k",
 	"description": "The tonk.",
 	"maxVelocity": 2,
 	"speed": 0.5,
